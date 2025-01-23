@@ -1,46 +1,40 @@
-# Getting Started with Create React App
+# Frontend challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Challenge
 
-## Available Scripts
+Modal dialogs are interactive overlay windows that temporarily disable the main content of a web page, focusing user attention on specific tasks or information. They can be used for displaying critical alerts, requesting user input, confirming actions, and presenting additional content without navigating away from the current context.
 
-In the project directory, you can run:
+Build a reusable modal dialog component that can be opened and closed, with customisable title and contents.
 
-### `npm start`
+## Requirements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- The modal dialog should contain the following elements:
+  1. Title/heading string.
+  2. Any contents as the body.
+  3. A close button that hides/closes the modal when clicked.
+- The modal dialog is centered horizontally and vertically on the screen.
+- The modal dialog is displayed above a semi-transparent background overlay.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Design the necessary props or configuration options for the modal dialog based on the above requirements.
 
-### `npm test`
+### Note:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The `<dialog>` HTML element is available but for the sake of of this task, implement a modal dialog without using that element.
 
-### `npm run build`
+## Stretch goals
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- The modal can be closed by clicking outside of the modal dialog component, or by hitting the `Escape` key.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Keep in mind
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- This should be a React app with TypeScript.
+- We don't want you to spend too long on this task. See how much you can get done in an hour or two.
+- Write any tests that are useful. We're not after loads of coverage.
+- We're more concerned with functionality at this stage so there are no designs to work to. You're free to make any UI/layout choices you like.
+- If you have questions before you start, please feel free to ask them!
 
-### `npm run eject`
+Have fun! We look forward to seeing your work.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Starting the dev server
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Run `npm install` and then `npm run dev` to start the dev server.
